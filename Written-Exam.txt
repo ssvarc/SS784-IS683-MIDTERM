@@ -1,0 +1,89 @@
+S 683 Mid-Term Exam . Job Interview
+
+You can submit your answers to these questions in an email to me OR for extra credit of 10% answer these questions in a file along with your programing assignment and submit the answers using GITHub, when you submit the programming portion.   Each of these questions is worth 2.5 points for a total of 50 points.  Your programming test is worth 5 Point per part for a total of 50 points.  The entire exam is worth 100 points.
+
+Job Description
+
+Company XYZ is hiring an entry level PHP programmer to maintain and develop custom applications in PHP.   You will expected to be able to write object oriented PHP code, SQL queries, HTML, CSS, and Javascript/Jquery.  
+
+Applicants should be able to work in teams and should have experience using a version control system.   The ideal candidate should be familiar with new technologies like MongoDB/NoSQL databases, software design patterns, KISS, and DRY principles of software development.  Applicants should also have experience using the LINUX/UNIX command line.
+
+We are hiring an entry
+
+1.	What does the acronym KISS mean and how does following this make you a better computer programmer?
+
+Keep It Simple Stupid means that one should always keep things as simple as possible. This includes making use of code reuse, following design patterns, etc. This ensures that the code one writes is more likely to work, is easier to understand, and can be reused in future applications.
+
+2.	What does the acronym DRY mean and why is it an essential principle of being a good computer programmer?
+
+Don't Repeat Yourself means that there only be one place where a piece of knowledge resides in a system. This help ensure that changes will be properly applied and won't affect other parts of the system in error.
+
+3.	What is the difference between a database like MongoDB and MySQL?
+
+MySQL is a relationship database with multiple tables, joins, etc. MongoDB is basically one table with all the relationships stored in the metadata.
+
+4.	If you were asked to write a program that could write at least 50 different HTML tags how would you do it?
+
+Write a function that accepted the HTML tag as a parameter, an array of the attributes as another parameter, and used a foreach loop to enclose it wrap it properly. This would allow it be reused for the many tags being entered as parameters.
+
+5.	What software design pattern would you be demonstrating in in the above solution?
+
+Factory method pattern.
+
+6.	What version control system(s) have you used?
+
+Git and Subversion.
+
+7.	What is GitHub and have you ever used it? 
+
+GitHub is a webservice that hosts Git repositories and has wrappers around them with reporting features, etc.
+ 
+8.	What is the command to create a GIT repository
+
+git init
+
+9.	What is the command to tell GIT to start tracking the file?
+
+git add
+
+10.	What is the command to commit your changes to the GIT log?
+
+git commit -m
+
+11.	What is the command to add a remote repository?
+
+git remote add origin git@*
+
+12.	What is the command to send your committed changes to the remote repository?
+
+git push -u origin master
+
+13.	What is your experience working in a software development team?
+
+I have experience in the project management field having had an internship with a PM at Saint Barnabas Health Systems. I worked on class projects with a classmate using agile methodology, where one coded and the other critiqued, taking turns at being the coder.
+
+14.	How would you create a new file and directory in linux?
+
+mkdir *. Another file can be made using vi and saving to a file name.
+
+15.	How would you set the permissions on a file / folder, so that another user can write to it.   i.e. so you the webserver can upload a file to the directory.
+16.	What program do you use to write your PHP code?
+
+Either vi via PuTTy, or Notepad++.
+
+17.	What is a constructor in PHP and how/why would you use it?
+
+It is the first method called when a new object is instantiated, and you would use it if you had certain functions, etc. that needed to be set up with each new object. Placing them in the constructor ensures that each object will have all the needed internal methods or values.
+
+18.	What is the difference between a class and an object?
+
+An object includes classes. A class is a complete object that is a conceptual complete. E.g. One would have a "Dog" class with many methods (bark, run, fetch, sit, etc.). The methods are objects.
+
+19.	Why is it important to comment / document your code?
+
+So that it can be more easily understood, and errors tracked down.
+
+20.	What traits do you think a good computer programmer has?
+
+Can work with others, has a working knowledge of the tools needed, knows how find the information needed; these are the groundwork traits. Specific programing habits are reusing code, documenting ones code, using design patterns.
+
