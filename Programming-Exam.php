@@ -1,4 +1,5 @@
-rticle = array('title' => 'my article title', 'body' => 'lorem ipsum');
+<?php
+$article = array('title' => 'my article title', 'body' => 'lorem ipsum');
 
 
 
